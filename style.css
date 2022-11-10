@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  background-color: #2aaad1;
+  width: 370px;
+  height: 480px;
+  overflow: hidden;  
+  margin: auto;    
+  padding: 80px; 
+  border-radius: 20px; 
+}
+.form_feild{
+  float: left;
+
+}
+input[type=text], input[type=file]{
+  width: 370px;
+  height: 30px;
+}
+input[type=text][name=uaddress]{
+  padding-bottom: 30px;
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+  color: cornsilk;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+label{
+  font-size: 17px;
+}
+
+.button{
+  width: 330px;
+  border: 0;
+  border-radius: 10px;
+  height: 36px;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #f4511e;
+  opacity: 0.6;
+}
+
+.button:hover{opacity: 1;}
+
+a{
+  float: right;
+  margin-top: 10px;
+}
+a:hover{
+  color: red;
+}
+
